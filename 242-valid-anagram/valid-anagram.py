@@ -1,9 +1,14 @@
-class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
+class Solution(object):
+    def isAnagram(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
         if len(s)!=len(t):
             return False
-        elif sorted(s)!=sorted(t):
+
+        if sorted(s)!=sorted(t):
             return False
-        else:
-            return True
+        return True
         
