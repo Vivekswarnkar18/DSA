@@ -10,4 +10,3 @@ class Solution(object):
         if sorted(s)!=sorted(t):
             return False
         return True
-        
