@@ -11,8 +11,6 @@ class Solution(object):
                 mp[num]+=1
             else:
                 mp[num]=1
-        arr=sorted(mp,key=mp.get,reverse=True)
+        arr=sorted(mp,key=mp.get,reverse= True)
         return arr[:k]
         
-        
-       
